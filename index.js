@@ -4,4 +4,3 @@ const drivers = ['Sally', 'Bob', 'Freddy', 'Claudia']
 
 const returnFirstTwoDrivers = () => drivers.slice[0,1]
 
-
