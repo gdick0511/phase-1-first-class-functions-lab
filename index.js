@@ -8,8 +8,12 @@ const  returnLastTwoDrivers= () => drivers.slice(2, 4)
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
 
-function createFareMultiplier(num){
-     function multiplier(num, 4 ){
-        return multiplier()
+// function createFareMultiplier(num){
+//      function multiplier(num, 4 ){
+//         return multiplier()
+//     }
+// }
+function createFareMultiplier(num,y=4){
+        return num * y;
     }
-}
+    console.log (multiply(num, y))
